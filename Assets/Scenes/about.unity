@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0.99999905, b: 0.99999905, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -193,9 +193,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "This game was developed as a j-component project for the course CSE4444,
-    Fall 2021 by Anas Ahmad Siddiqui (20BPS1094), Harsh Deswal (20BPS1145) and Vedant
-    Mathur(\r19BME1279)"
+  m_Text: This game was developed as a j-component project for the course CSE4444,
+    Fall 2021 by Anas Ahmad Siddiqui (20BPS1094).
 --- !u!222 &244790999
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -654,7 +653,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 30b607e2857a2314e95e0f31c587cc17, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.25
+  m_Volume: 0.05
   m_Pitch: 1
   Loop: 1
   Mute: 0
